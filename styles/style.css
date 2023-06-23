@@ -1,0 +1,121 @@
+.container {
+  max-width: 1208px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.articles-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #414141;
+  background: #FBF8EC;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.articles {
+  padding: 100px 0;
+}
+.articles__title {
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 36px;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.card {
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+  max-width: 272px;
+  padding: 8px 8px;
+}
+.card__maintitle {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 150%;
+}
+.card__price {
+  display: flex;
+}
+.card__sale {
+  border-radius: 4px;
+  background: #F63;
+  padding: 4px 8px;
+  color: white;
+  margin-bottom: 18px;
+}
+.card__price {
+  margin-top: 18px;
+}
+.card__add {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #70C05B;
+  color: #70C05B;
+}
+.card__subtitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: Rubik;
+  line-height: 150%;
+  color: #BFBFBF;
+}
+.card__img {
+  width: 100%;
+  height: 160px;
+  display: block;
+  position: relative;
+}
+.card__main {
+  padding: 8px 8px;
+  margin: 8px 8px;
+}
+.card__rating {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.card__like {
+  float: right;
+  border-radius: 4px;
+  opacity: 0.5;
+  background: #F3F2F1;
+  display: block;
+}/*# sourceMappingURL=style.css.map */

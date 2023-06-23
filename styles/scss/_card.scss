@@ -1,0 +1,77 @@
+.card {
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    min-width: 160px;
+    max-width: 272px;
+    padding: 8px 8px;
+
+    &__maintitle {
+        font-weight: 400;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 150%;
+
+    }
+
+    &__price {
+        display: flex;
+    }
+
+    &__sale {
+        border-radius: 4px;
+        background: #F63;
+        padding: 4px 8px;
+        color: white;
+        margin-bottom: 18px;
+
+    }
+
+    &__price {
+        margin-top: 18px;
+    }
+
+    &__add {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #70C05B;
+        color: #70C05B;
+    }
+
+    &__subtitle {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        font-family: Rubik;
+        line-height: 150%;
+        color: #BFBFBF;
+    }
+
+    &__img {
+        width: 100%;
+        height: 160px;
+        display: block;
+        position: relative;
+    }
+
+    &__main {
+        padding: 8px 8px;
+        margin: 8px 8px;
+    }
+
+    &__rating {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__like {
+        float: right;
+        border-radius: 4px;
+        opacity: 0.5;
+        background: #F3F2F1;
+        display: block;
+    }
+}
