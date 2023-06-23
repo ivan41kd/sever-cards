@@ -112,7 +112,7 @@ button {
   width: 100%;
   height: auto;
 }
-.card__like {
+.card__favorite {
   float: right;
   border-radius: 4px;
   opacity: 0.5;
